@@ -1,0 +1,9 @@
+package: agrupamento logico de classes relacionadas
+//Classes de: Entidades, Serviços, Respositorios
+
+Modulo: Agrupamento logico de pacotes relacionados 
+Runtime: Agrupamento Fisico
+//Financeiro, Grafico, 
+
+Aplicação: Agrupamento de modulos relacionadas
+//Sistema de comercio eletronico
