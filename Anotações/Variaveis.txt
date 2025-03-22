@@ -1,7 +1,0 @@
-int idade = 25;
-double altura = 1.68;
-char sexo = "F";
-
-//nome, tipo, valor, endereço
-
-Outras variaveis na imagem TiposPrimitivos.png
