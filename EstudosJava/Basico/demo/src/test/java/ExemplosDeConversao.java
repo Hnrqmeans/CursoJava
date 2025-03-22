@@ -1,7 +1,6 @@
 public class ExemplosDeConversao {
  public static void main(String[] args) {
 
-//---------EXEMPLO1----------//
     //double b, B, h, area;
     //b= 6.0;
     //B =8.0;
