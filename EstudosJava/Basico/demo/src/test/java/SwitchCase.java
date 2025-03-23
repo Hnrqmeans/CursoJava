@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 public class SwitchCase {
-    public static void main(SobreString[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
-        SobreString dia;
+        String dia;
         
         switch (x){
             case 1:
@@ -33,5 +33,6 @@ public class SwitchCase {
                 break;
         }
         System.out.println("Dia da semana: " + dia);
+        sc.close();
     }
 }

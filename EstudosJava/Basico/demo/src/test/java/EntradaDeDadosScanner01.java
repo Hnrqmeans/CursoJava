@@ -1,10 +1,10 @@
-import java.util.Locale;
-import java.util.Scanner;
+// import java.util.Locale;
+// import java.util.Scanner;
 
 public class EntradaDeDadosScanner01 {
     public static void main(SobreString[] args) {
         
-        //-------------String--------------//
+        // -------------String--------------//
         
         // Scanner sc = new Scanner(System.in);
 
@@ -14,7 +14,7 @@ public class EntradaDeDadosScanner01 {
 
         // sc.close();
 
-        //---------Numero Inteiro-----------//
+        // ---------Numero Inteiro-----------//
 
         // Scanner sc = new Scanner(System.in);
 
@@ -24,19 +24,19 @@ public class EntradaDeDadosScanner01 {
 
         // sc.close();
 
-        //---------Numero Flutuante--------//
+        // ---------Numero Flutuante--------//
 
-        //Locale.setDefault(Locale.US);  
+        // Locale.setDefault(Locale.US);  
         // Scanner sc = new Scanner(System.in);
 
         // double x;
         // x = sc.nextDouble();
         // System.out.printf("Você digitou: %.2f%n ", x);
-        // //System.out.println("Você digitou: " + x);
+        // System.out.println("Você digitou: " + x);
 
-        //sc.close();
+        // sc.close();
 
-        //---------Caracteres--------//
+        // ---------Caracteres--------//
 
         // Scanner sc = new Scanner (System.in);
         
@@ -46,7 +46,7 @@ public class EntradaDeDadosScanner01 {
 
         // sc.close();
 
-        //---------Ler Varios dados--------//
+        // ---------Ler Varios dados--------//
 
         // Scanner sc = new Scanner(System.in);
 
