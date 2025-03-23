@@ -1,5 +1,5 @@
 public class EntradaDeDadosScanner02 {
-    public static void main(String[] args) {
+    public static void main(SobreString[] args) {
 
         //---------Resumo----------//
 

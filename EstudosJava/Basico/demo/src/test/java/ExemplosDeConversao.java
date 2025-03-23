@@ -1,5 +1,5 @@
 public class ExemplosDeConversao {
- public static void main(String[] args) {
+ public static void main(SobreString[] args) {
 
     //double b, B, h, area;
     //b= 6.0;

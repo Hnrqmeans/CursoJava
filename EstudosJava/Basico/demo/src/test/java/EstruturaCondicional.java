@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class EstruturaCondicional {
-    public static void main(String[] args) {
+    public static void main(SobreString[] args) {
     //--------------------------------//   
         Scanner sc = new Scanner (System.in); 
         int hora;

@@ -1,5 +1,5 @@
 public class FuncoesMatematicas {
-    public static void main(String[] args) {
+    public static void main(SobreString[] args) {
         
         //---------EXEMPLOS----------//
 

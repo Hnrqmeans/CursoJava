@@ -1,5 +1,5 @@
 public class OperadoresComparativos {
-    public static void main(String[] args) {
+    public static void main(SobreString[] args) {
         
         // x = 5
         // x > 0   True
