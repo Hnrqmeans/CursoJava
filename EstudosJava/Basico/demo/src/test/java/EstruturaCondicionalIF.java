@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EstruturaCondicional {
+public class EstruturaCondicionalIF {
     public static void main(SobreString[] args) {
     //--------------------------------//   
         Scanner sc = new Scanner (System.in); 
