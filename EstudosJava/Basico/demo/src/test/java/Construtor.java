@@ -9,7 +9,6 @@ public class Construtor {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner (System.in);
 
-
         System.out.println("Enter product Data: ");
         System.out.print("Name: ");
         String name = sc.nextLine();
@@ -17,11 +16,17 @@ public class Construtor {
         System.out.println("Enter product Price: ");
         System.out.print("Price: ");
         double Price = sc.nextDouble();
+        Produtos produtos = new Produtos(name, Price);
+
+        produtos.setName("Computer");
+        System.out.println("Updated name: " + produtos.getName());
+        produtos.setPrice(1200.00);
+        System.out.println("Updated price: " + produtos.getPrice());
 
         System.out.println("Enter product Quantity in Stock: ");
         System.out.print("Quantity: ");
         int Quantity = sc.nextInt();
-        Produtos produtos = new Produtos(name, Price, Quantity);
+        //Produtos produtos = new Produtos(name, Price, Quantity);
 
         System.out.println("Product Data: " + produtos);
         System.out.println();

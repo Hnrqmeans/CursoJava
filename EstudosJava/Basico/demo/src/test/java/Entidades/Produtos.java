@@ -2,14 +2,38 @@ package Entidades;
 
 public class Produtos {
 
-    public String name;
-    public Double Price; //atributos
-    public int Quantity;
+    private String name;
+    private Double Price; //atributos
+    private int Quantity;
 
     public Produtos (String name, double Price, int Quantity){//construtor
         this.name = name;
         this.Price = Price;
         this.Quantity = Quantity;
+    }
+
+    public Produtos(String name, double Price){
+        this.name = name;
+        this.Price = Price;
+    }
+
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public double getPrice(){
+        return Price;
+    }
+
+    public void setPrice(double Price){
+        this.Price = Price;
+    }
+
+    public int getQuantity(){
+        return Quantity;    
     }
 
 public double totalValue(){  //metodos
@@ -25,5 +49,5 @@ public String toString(){
    return name + ", $ " + String.format("%.2f", Price) + ", " + Quantity + " Units, Total: $ " + String.format("%.2f", totalValue()); 
 
 }
-
+ 
 }
